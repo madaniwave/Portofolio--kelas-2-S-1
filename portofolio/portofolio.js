@@ -2,7 +2,7 @@ const projects1 = [
   {
     title: "Kalkulator Zakat Emas",
     description: "Progam komputer y secara otomatis menghitung jumlah zakat y harus dibayarkan berdasarkan data",
-    image: "/images/gambar-1.jpg",
+    image: "./images/gambar-1.jpg",
     tagsHtml: ["HTML"], 
     tagsCss: ["CSS"],
     tagsJs: ["JavaScript"],
@@ -11,7 +11,7 @@ const projects1 = [
   {
     title: "Kalkulator",
     description: "Aplikasi perangkat lunak yang dirancang untuk melakukan operasi matematika, mulai dari aritmatika Dll",
-    image: "/images/gambar-2.jpg",
+    image: "./images/gambar-2.jpg",
     tagsHtml: ["HTML"],
     tagsCss: ["CSS"],
     tagsJs: ["JavaScript"],
@@ -20,7 +20,7 @@ const projects1 = [
   {
     title: "Lampu Merah",
     description: "Project Simulasi Lalu Lintas Yang Diloopingkan Dengan Menggunakan Javascript",
-    image: "/images/gambar-3.jpg",
+    image: "./images/gambar-3.jpg",
     tagsHtml: ["HTML"],
     tagsCss: ["CSS"],
     tagsJs: ["JavaScript"],
@@ -98,7 +98,7 @@ const audio = document.getElementById("nasyid");
             }
         });
 
-        
+
 // dark
 // const themeKey = "theme";
 
