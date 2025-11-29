@@ -1,0 +1,457 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.kontainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.header {
+  background-color: white;
+  backdrop-filter: blur(10px);
+  padding: 5px 0;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid #add;
+  
+}
+
+.header .kontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.a-header {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.a-header:hover {
+  color: orangered;
+  text-shadow: 0 0 24px orangered;
+  transform: scale(1.1);
+}
+
+span {
+  color: orangered;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  align-items: center;
+}
+
+.main-nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  padding: 4px 4px;
+  font-weight: 400;
+  transition: color 0.3s ease-in-out;
+}
+
+.main-nav a:hover,
+.main-nav a.nyala {
+  color: orangered;
+  border-bottom: 1px solid orangered;
+}
+
+.hero-section {
+  font-size: 40px;
+  background-color: rgba(240, 248, 255, 0.534);
+  padding: 80px 0;
+  text-align: center;
+  /* height: 80vh; */
+}
+
+/* sound */
+
+#Toggle-mode {
+  padding: 10px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px black;
+}
+
+#Toggle-mode:hover {
+  background: white;
+  padding: 10px;
+  color: orangered;
+  box-shadow: 0 0 10px orangered
+}
+
+.Tentang-saya .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  padding: 30px;
+  margin: 30px;
+  background: white;
+}
+
+.saya-daffa {
+  max-width: 800px;
+}
+
+.saya-daffa h3 {
+  font-size: 42px;
+}
+
+.saya-daffa h1 {
+  font-size: 40px;
+  font-weight: 500;
+  /* margin-bottom: 6px;  */
+}
+
+.saya-daffa p {
+  font-size: 18px;
+  /* max-width: 450px; */
+  /* margin-bottom: 16px; */
+  color: #6e6e73;
+  padding-bottom: 30px;
+}
+
+.btn-primary {
+  padding: 12px;
+  border-radius: 12px;
+  background-color: orangered;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+  border: 1px solid black;
+  box-shadow: 0 0 20px;
+}
+
+.btn-primary:hover {
+  background-color: rgba(240, 248, 255, 0.534);
+  padding: 15px;
+  color: black;
+}
+
+.hero-img img {
+  margin: 30px 30px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 0 25px orangered;
+}
+
+/* tentang saya */
+
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  padding: 30px;
+  background: rgba(240, 248, 255, 0.534);
+  /* text-align: left; */
+  /* display: flex;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+  height: 30em;
+  text-align: start; */
+  /* max-width: 800px; */
+}
+
+.hero-images img {
+  margin: 30px 30px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 0 25px orangered;
+}
+
+.About-daffa h2 {
+  text-align: left; /* center */
+  font-size: 30px;
+  /* margin-bottom: 40px; */
+  /* border-bottom: 1px solid orangered; */
+  font-weight: 500;
+}
+
+.About-daffa h3 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.About-daffa p {
+  font-size: 18px;
+  /* max-width: 450px; */
+  margin-bottom: 16px;
+  color: #6e6e73;
+}
+
+/* project */
+
+.card {
+  width: 300px;
+  height: 550px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin: 25px;
+  text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 0 24px orangered;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-top: 28px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #6e6e73;
+  margin-bottom: 28px;
+}
+
+.dapa {
+  padding: 20px;
+  justify-content: center;
+}
+
+.naisa {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.style {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px;
+  background-color: rgba(128, 128, 128, 0.253);
+  color: white;
+  border-radius: 8px;
+  margin-right: 6px;
+  color: blue;
+}
+.link {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#proyek {
+  display: flex;
+  justify-content: center;
+  /* margin: 90px; */
+  gap: 10px;
+}
+
+.dacil {
+  text-align: center;
+  font-size: 42px;
+  transition: 0.3s ease;
+}
+
+.dacil:hover {
+  color: white;
+  text-shadow: 0 4px 24px black;
+  transform: scale(1.1);
+}
+
+/* what i do */
+
+.features-section {
+  background-color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+.features {
+  background-color: #f5f5f7;
+  padding: 40px;
+  border-radius: 20px;
+  flex: 2;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.features:hover {
+  color: orangered;
+  transform: translateY(-20px);
+  box-shadow: 0 0 24px orangered;
+}
+
+.section-title {
+  font-size: 42px;
+  /* font-weight: 600; */
+  margin-bottom: 60px;
+  transition: 0.3s ease;
+}
+
+.section-title:hover {
+  color: white;
+  text-shadow: 0 4px 24px black;
+  transform: scale(1.1);
+}
+
+.features-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.features {
+  /* transform:translateY(-10px); */
+  box-shadow: 0 4px 8px black;
+}
+
+.feature-icon {
+  height: 50px;
+}
+
+.features p {
+  font-size: 16px;
+  color: #6e6e73;
+}
+
+/* mari terhubung */
+
+.Kontakk {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.Mari {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 5rem;
+  transition: 0.3s ease;
+}
+
+.Mari:hover {
+  color: white;
+  text-shadow: 0 4px 24px black;
+  transform: scale(1.1);
+}
+
+.Terhubung a {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+  margin: 1rem;
+  border: 1px solid white;
+  box-shadow: 0 0 20px;
+}
+
+.Terhubung .github:hover {
+  background-color: rgba(0, 0, 0, 0.795);
+  padding: 15px;
+  color: white;
+}
+
+.Terhubung .instagram:hover {
+  background-image: repeating-linear-gradient(blue,purple,red,yellow); /* nyoba nyoba dapet kayak gini keren bet */
+  padding: 15px;
+  color: white;
+}
+
+.Terhubung .youtube:hover {
+  background-color: red;
+  padding: 15px;
+  color: white;
+}
+
+.Terhubung .tiktok:hover {
+  background-color: black;
+  padding: 15px;
+  color: white;
+}
+
+.Terhubung .figma:hover {
+  background-image: repeating-linear-gradient(blue,red);
+  padding: 15px;
+  color: white;
+}
+
+
+/* my skills */
+
+.galery {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.skill {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 5rem;
+  transition: 0.3s ease;
+}
+
+.skill:hover {
+  color: white;
+  text-shadow: 0 4px 24px black;
+  transform: scale(1.1);
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.foto img {
+  width: 150px;
+  padding: 40px;
+  /* height: 100% auto; */
+  object-fit: cover;
+  border-radius: 12px;
+  /* border: 1px solid white; */
+  box-shadow: 3px 3px 10px black;
+  transition: 0.3s ease;
+}
+
+.foto img:hover {
+  background-color: rgba(255, 68, 0, 0.849);
+  transform: translateY(-20px);
+  box-shadow: 0 0 24px orangered;
+}
+
+.main-footer {
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+  background-color: #f4f4f4;
+  margin-top: 7rem;
+}
